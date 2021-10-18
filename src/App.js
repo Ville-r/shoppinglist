@@ -56,8 +56,8 @@ function App() {
       <h3>Shopping list</h3>
       <form onSubmit={save}>
         <label>New item</label>
-        <input value={description} onChange={e => setDescription(e.target.value)} />
-        <input value={amount} onChange={e => setAmount(e.target.value)} />
+        <input value={description} onChange={e => setDescription(e.target.value)} placeholder="type description"/>
+        <input value={amount} onChange={e => setAmount(e.target.value)} placeholder="type amount"/>
         <button>Add</button>
       </form>
       <div id="list">
