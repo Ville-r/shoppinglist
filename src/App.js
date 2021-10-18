@@ -67,7 +67,7 @@ function App() {
            <p>
            <a className="delete" onClick={() => remove(item.id)} href="#">
               Delete
-            </a>&nbsp;
+            </a>
           </p>
           </div>
         ))}
